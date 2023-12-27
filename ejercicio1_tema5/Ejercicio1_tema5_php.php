@@ -1,5 +1,6 @@
 <?php
 //Llamar a las clases
+require("Animal.php");
 require ('Animales.php');
 require ('Perro.php');
 require ('Gato.php');
@@ -9,7 +10,7 @@ $nuevoPerro = new Perro("Doggy");
 $nuevoGato = new Gato("Frida");
 
 //llamo a los metodos y los imprimo
-echo "mi perro hace" . $nuevoPerro->makeSound() . "<br>";
+echo $nuevoPerro->makeSound() . "<br>";
 echo $nuevoGato->makeSound() . "<br>";
 
 ?>

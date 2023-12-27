@@ -1,4 +1,6 @@
 <?php
+require_once("Animales.php");
+
 class Perro extends Animales{
 
     //metodo emitir sonido
