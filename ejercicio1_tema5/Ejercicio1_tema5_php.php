@@ -9,7 +9,7 @@ $nuevoPerro = new Perro("Doggy");
 $nuevoGato = new Gato("Frida");
 
 //llamo a los metodos y los imprimo
-echo $nuevoPerro->makeSound() . "<br>";
+echo "mi perro hace" . $nuevoPerro->makeSound() . "<br>";
 echo $nuevoGato->makeSound() . "<br>";
 
 ?>
